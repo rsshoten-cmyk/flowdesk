@@ -1,7 +1,7 @@
 {
   "name": "FlowDesk 業務管理",
   "short_name": "FlowDesk",
-  "start_url": "./業務管理アプリ.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#f5f7fb",
   "theme_color": "#132238",

@@ -1,4 +1,4 @@
-const CACHE = 'flowdesk-v2';
+const CACHE = 'flowdesk-v4';
 const FILES = ['./', './業務管理アプリ.html', './manifest.webmanifest', './icon.svg'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES))));
 self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
